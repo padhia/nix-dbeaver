@@ -14,7 +14,7 @@
 }:
 stdenv.mkDerivation rec {
   pname   = "dbeaver";
-  version = "24.0.4";
+  version = "24.0.5";
 
   desktopItem = makeDesktopItem {
     name        = "dbeaver";
@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url    = "https://dbeaver.io/files/${version}/dbeaver-ce-${version}-linux.gtk.x86_64-nojdk.tar.gz";
-    sha256 = "sha256-sRXfEXTZNHJqBIwHGvYJUoa20qH7KLjygGP7uoaxT1M=";
+    sha256 = "sha256-q6VIr55hXn47kZrE2i6McEOfp2FBOvwB0CcUnRHFMZs=";
   };
 
   installPhase = ''
