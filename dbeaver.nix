@@ -45,7 +45,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url    = "https://dbeaver.io/files/${version}/dbeaver-ce-${version}-linux.gtk.x86_64-nojdk.tar.gz";
-    sha256 = "sha256-bYoEfsgC2faplo3yOiXNYcYM4HmmgWkVbDIuQ2d8rSQ=";
+    sha256 = "sha256-cJcjUoZSpD87jy4GGIxMinZW4gxRZfcGO0GdGUGXI6g=";
   };
 
   installPhase = ''
